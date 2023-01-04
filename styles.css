@@ -1,0 +1,145 @@
+body {
+	background-color: gray;
+}
+
+.canvas {
+	width: 500px;
+	height: 600px;
+	background-color: #4d0f00;
+	padding: 15px 10px;
+	filter: blur(2px);
+	margin: 0 auto;
+}
+
+.frame {
+	border: 50px solid goldenrod;
+	background-color: black;
+	width: 500px;
+	padding: 50px;
+	margin: 20px auto;
+}
+
+.one {
+	position: relative;
+	width: 425px;
+	height: 150px;
+	background-color: #efb762;
+	margin: 20px auto;
+	box-shadow: 0 0 3px 3px #efb762;
+	border-radius: 9px;
+	transform: rotate(-0.6deg);
+}
+.svg-one,
+.svg-one-1,
+.svg-one-2,
+.svg-one-3,
+.svg-one-4 {
+	position: absolute;
+	fill: #efb762;
+	top: -30px;
+	filter: blur(5px);
+}
+.svg-one-1,
+.svg-two-1,
+.svg-three-1 {
+	right: 80px;
+}
+.svg-one-2,
+.svg-one-3 {
+	top: 50px;
+	left: -80px;
+	max-height: 35px;
+	transform: rotate(-90deg);
+}
+
+.svg-one-3 {
+	top: 58px;
+	left: initial;
+	right: -80px;
+	transform: rotate(90deg);
+}
+.svg-one-4 {
+	top: initial;
+	bottom: -34px;
+	transform: rotate(180deg);
+}
+.two {
+	position: relative;
+	width: 475px;
+	height: 200px;
+	background-color: #8f0401;
+	margin: 0 auto 30px;
+	box-shadow: 0 0 3px 3px #8f0401;
+	border-radius: 8px 10px;
+	transform: rotate(0.4deg);
+}
+.svg-two,
+.svg-two-1,
+.svg-two-2,
+.svg-two-3,
+.svg-two-4 {
+	position: absolute;
+	fill: #8f0401;
+	top: -34px;
+	filter: blur(5px);
+}
+.svg-two-2,
+.svg-two-3 {
+	top: 75px;
+	left: -100px;
+	max-height: 45px;
+	transform: rotate(-90deg);
+}
+.svg-two-3 {
+	left: initial;
+	right: -100px;
+	transform: rotate(90deg);
+}
+.svg-two-4 {
+	top: initial;
+	bottom: -40px;
+	transform: rotate(180deg);
+}
+
+.one,
+.two {
+	filter: blur(1px);
+}
+
+.three {
+	width: 91%;
+	height: 28%;
+	background-color: #b20403;
+	margin: auto;
+	filter: blur(2px);
+	box-shadow: 0 0 5px 5px #b20403;
+	border-radius: 30px;
+}
+
+.svg-three,
+.svg-three-1,
+.svg-three-2,
+.svg-three-3,
+.svg-three-4 {
+	position: absolute;
+	fill: #b20403;
+	top: -34px;
+	filter: blur(5px);
+}
+.svg-three-2,
+.svg-three-3 {
+	top: 75px;
+	left: -80px;
+	max-height: 35px;
+	transform: rotate(-90deg);
+}
+.svg-three-3 {
+	left: initial;
+	right: -82px;
+	transform: rotate(90deg);
+}
+.svg-three-4 {
+	top: initial;
+	bottom: -40px;
+	transform: rotate(180deg);
+}
